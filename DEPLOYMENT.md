@@ -1,4 +1,4 @@
-# 🚀 DEPLOYMENT GUIDE - ELAYA GPT Bot
+# 🚀 DEPLOYMENT GUIDE - ELAYA EVOLUTION Bot
 
 Полное руководство по развертыванию AI-ассистента на базе знаний Элайи.
 
@@ -134,7 +134,7 @@ SETUP.bat
 
 ```bash
 # 1. Клонируйте репозиторий
-git clone https://github.com/notebookastana/elaya-bot.git
+git clone https://github.com/notebookastana/elaya-telegram-llm-bot.git
 cd elaya-bot
 
 # 2. Создайте виртуальное окружение
@@ -192,7 +192,7 @@ DB_PATH=elaya_cache.db
 ```python
 # === КОНФИГУРАЦИЯ ELAYA ===
 BOT_NAME = "ELAYA"
-BOT_DESCRIPTION = "AI-ассистент на базе знаний Элайи"
+BOT_DESCRIPTION = "AI-ассистент на базе знаний Элайи и Бауыржана"
 CONTEXT_WINDOW = 10              # Размер контекста диалога
 CURRENT_TEMPERATURE = 0.7        # Креативность (0.0-1.0)
 
@@ -327,7 +327,7 @@ python bot.py
 
 Ожидаемый ответ:
 ```
-✨ ELAYA — AI-ассистент на базе знаний Элайи
+✨ ELAYA — AI-ассистент на базе знаний Элайи и Бауыржана
 
 🌸 Привет, дорогой друг!
 
@@ -466,7 +466,7 @@ GROUP_RESPONSE_MODE = "smart"  # Должно быть "smart" или "all"
 
 ```ini
 [Unit]
-Description=ELAYA GPT Telegram Bot
+Description=ELAYA EVOLUTION Telegram Bot
 After=network.target
 
 [Service]
@@ -656,7 +656,7 @@ CONTEXT_WINDOW = 5
 
 **Автор**: [@bauyrzhan_khamzin](https://t.me/bauyrzhan_khamzin)
 
-**GitHub**: [notebookastana/elaya-bot](https://github.com/notebookastana/elaya-bot)
+**GitHub**: [notebookastana/elaya-bot](https://github.com/notebookastana/elaya-telegram-llm-bot)
 
 **Issues**: Создавайте issue на GitHub
 
@@ -687,6 +687,7 @@ CONTEXT_WINDOW = 5
 
 Если возникли вопросы — обращайтесь к автору.
 *Автор памятки: Claude + Bauyrzhan Khamzin*
+
 **С любовью, команда ELAYA ✨**
 
 **Удачи с развёртыванием! 🚀**
