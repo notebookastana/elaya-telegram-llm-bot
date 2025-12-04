@@ -1,8 +1,8 @@
-# ✨ ELAYA GPT
+# ✨ ELAYA EVOLUTION
 
-**AI-ассистент на базе знаний Элайи**
+**AI-ассистент на базе знаний Элайи и Бауыржана**
 
-Форк проекта [TOR](https://github.com/notebookastana/tor-bot) с автоматическим RAG.
+Форк проекта [TOR](https://github.com/notebookastana/tor-telegram-llm-bot) с автоматическим RAG.
 
 
 
@@ -166,7 +166,7 @@ Contributions are welcome! Feel free to:
 
 ## 📮 Контакты
 
-- **Issues**: [GitHub Issues](https://github.com/notebookastana/elaya-bot/issues)
+- **Issues**: [GitHub Issues](https://github.com/notebookastana/elaya-telegram-llm-bot/issues)
 - **Telegram**: [@bauyrzhan_khamzin](https://t.me/bauyrzhan_khamzin)
 - **GitHub**: [@notebookastana](https://github.com/notebookastana)
 
